@@ -26,7 +26,7 @@ jobs:
   test:
     runs-on : ubuntu-latest
     steps:
-    - name: Checkout code- name: Run tests
+    - name:  Run tests
       run: |
         pytest test.py 
 
