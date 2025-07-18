@@ -9,5 +9,9 @@ def hello():
 def about():
     return jsonify({"message": "This is about page"})
 
+@app.route("/contact")
+def about():
+    return jsonify({"message": "This is about contactpage"})
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=5000)
